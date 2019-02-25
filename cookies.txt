@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.onedrop.org	TRUE	/	FALSE	1999999999	__cfduid	d9bcdc86cd87a013e15b02153288113511551086576
+onedrop.org	TRUE	/	FALSE	1999999999	PHPSESSID	ae0121982ede014fe38c020f05070ea4
+.onedrop.org	TRUE	/	FALSE	1999999999	flang-redirect	en
+
