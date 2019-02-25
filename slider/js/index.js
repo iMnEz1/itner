@@ -10,7 +10,7 @@ var app = new Vue({
                 headlineSecondLine: "Tax",
                 sublineFirstLine: "Arcane Studios",
                 sublineSecondLine: "cipher",
-                bgImg: "https://i.postimg.cc/C5yvGSkm/slide0.jpg",
+                bgImg: "1b.jpg",
                 rectImg: "https://i.postimg.cc/vTW0XkvM/slide-rect0.jpg"
             },
             {
@@ -20,6 +20,14 @@ var app = new Vue({
                 sublineSecondLine: "cipher",
                 bgImg: "https://i.postimg.cc/Qx34VNXM/slide1.jpg",
                 rectImg: "https://i.postimg.cc/ryWZ8R2b/slide-rect1.jpg"
+            },
+            {
+                headlineFirstLine: "#PKMKB",
+                headlineSecondLine: "Tax",
+                sublineFirstLine: "Arcane Studios",
+                sublineSecondLine: "cipher",
+                bgImg: "https://i.postimg.cc/t4RBtrnQ/slide2.jpg",
+                rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
             },
             {
                 headlineFirstLine: "#PKMKB",

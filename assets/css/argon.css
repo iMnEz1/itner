@@ -13080,6 +13080,18 @@ button.bg-lighter:focus
 
 }
 
+.bg-gradient-banner3
+{
+    background-image: url("../img/bg3.jpg");
+    width:100%;
+    height:150px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    filter: opacity(85%);
+
+
+}
+
 .bg-gradient-ani
 {
     background-image: url("../img/ani.svg");
