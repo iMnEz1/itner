@@ -12,7 +12,7 @@ var app = new Vue({
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/5a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
-                test: "Building a stronger nation"
+                test: ""
             },
             {
                 headlineFirstLine: "Providing Healthcare",
@@ -21,7 +21,7 @@ var app = new Vue({
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/8a.jpg",
                 rectImg: "https://i.postimg.cc/vTW0XkvM/slide-rect0.jpg",
-                test: "Aids to calamities"
+                test: ""
             },
             {
                 headlineFirstLine: "Preserving our",
@@ -30,7 +30,7 @@ var app = new Vue({
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/7a.jpg",
                 rectImg: "https://i.postimg.cc/ryWZ8R2b/slide-rect1.jpg",
-                test: "Care for our Elderly"
+                test: ""
             },
             {
                 headlineFirstLine: "Providing",
@@ -39,16 +39,16 @@ var app = new Vue({
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/6a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
-                test: "For a brighter tomorrow"
+                test: ""
             },
             {
-                headlineFirstLine: "Providing",
-                headlineSecondLine: "Mid-day meals",
+                headlineFirstLine: "Aids to",
+                headlineSecondLine: "Natural Calamities",
                 sublineFirstLine: "Know where your tax",
                 sublineSecondLine: "Goes",
-                bgImg: "assets/img/slider/6a.jpg",
+                bgImg: "assets/img/slider/3a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
-                test: "For a brighter tomorrow"
+                test: ""
             }
         ]
     },

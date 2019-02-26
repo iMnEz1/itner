@@ -66,10 +66,15 @@
           </div>
           <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+              <a href="blog/index.html" class="nav-link">
+                <!-- <i class="ni ni-ui-04 d-lg-none"></i> -->
+                Home
+                <!-- <span class="nav-link-inner--text"></span> -->
+              </a>
+              <!-- <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-ui-04 d-lg-none"></i>
                 <span class="nav-link-inner--text">Home</span>
-              </a>
+              </a> -->
 <!--               <div class="dropdown-menu dropdown-menu-xl">
                 <div class="dropdown-menu-inner">
                   <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
@@ -107,9 +112,10 @@
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                <i class="ni ni-ui-04 d-lg-none"></i>
-                <span class="nav-link-inner--text">FAQs</span>
+              <a href="faq/faq.html" class="nav-link">
+                <!-- <i class="ni ni-ui-04 d-lg-none"></i> -->
+                FAQs
+                <!-- <span class="nav-link-inner--text"></span> -->
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -246,8 +252,8 @@
                         <div class="slide-rect" v-bind:style="{'border-image-source': 'url(' + slide.rectImg + ')'}"></div>
                     </div> -->
                     <div class="slide-content">
-                        <h1 class="slide-content-text"><p>{{ slide.headlineFirstLine }}</p><p>{{ slide.headlineSecondLine }}</p></h1>
-                        <a class="slide-content-cta" href="https://www.youtube.com/watch?v=cQFVeh6PCSQ">Play Video</a>
+                        <h1 class="slide-content-text" style="color: white"><p>{{ slide.headlineFirstLine }}</p><p>{{ slide.headlineSecondLine }}</p></h1>
+                        <!-- <a class="slide-content-cta" href="https://www.youtube.com/watch?v=cQFVeh6PCSQ">Play Video</a> -->
                       </div>
                     <h2 class="slide-side-text"><span>{{ slide.sublineFirstLine }} / </span><span>{{ slide.sublineSecondLine }}</span></h2></div>
             </div>
@@ -255,7 +261,7 @@
             <button class="controls-button" 
                     v-for="(slide, index) in slides"
                     v-bind:class="{ active: index === currentSlide }"
-                    v-on:click="updateSlide(index)">{{ slide.test }} {{ slide.headlineSecondLine }}</button>
+                    v-on:click="updateSlide(index)">{{ slide.headlineFirstLine }} {{ slide.headlineSecondLine }}</button>
         </div>
         <div class="pagination-container">
             <span class="pagination-item"
