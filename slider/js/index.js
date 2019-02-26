@@ -6,12 +6,22 @@ var app = new Vue({
         isFirstLoad: true,
         slides: [
             {
+                headlineFirstLine: "Electrifying",
+                headlineSecondLine: "our nation",
+                sublineFirstLine: "Know where your tax",
+                sublineSecondLine: "Goes",
+                bgImg: "assets/img/slider/5a.jpg",
+                rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
+                test: "Building a stronger nation"
+            },
+            {
                 headlineFirstLine: "Providing Healthcare",
                 headlineSecondLine: "To Every Soul",
                 sublineFirstLine: "Know where your tax",
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/8a.jpg",
-                rectImg: "https://i.postimg.cc/vTW0XkvM/slide-rect0.jpg"
+                rectImg: "https://i.postimg.cc/vTW0XkvM/slide-rect0.jpg",
+                test: "Aids to calamities"
             },
             {
                 headlineFirstLine: "Preserving our",
@@ -19,7 +29,8 @@ var app = new Vue({
                 sublineFirstLine: "Know where your tax",
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/7a.jpg",
-                rectImg: "https://i.postimg.cc/ryWZ8R2b/slide-rect1.jpg"
+                rectImg: "https://i.postimg.cc/ryWZ8R2b/slide-rect1.jpg",
+                test: "Care for our Elderly"
             },
             {
                 headlineFirstLine: "Providing",
@@ -27,15 +38,8 @@ var app = new Vue({
                 sublineFirstLine: "Know where your tax",
                 sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/6a.jpg",
-                rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
-            },
-            {
-                headlineFirstLine: "Electrifying",
-                headlineSecondLine: "our nation",
-                sublineFirstLine: "Know where your tax",
-                sublineSecondLine: "Goes",
-                bgImg: "assets/img/slider/5a.jpg",
-                rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
+                rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
+                test: "For a brighter tomorrow"
             }
         ]
     },

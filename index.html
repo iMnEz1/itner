@@ -100,9 +100,10 @@
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                <i class="ni ni-ui-04 d-lg-none"></i>
-                <span class="nav-link-inner--text">Awareness Campaigns</span>
+              <a href="blog/index.html" class="nav-link">
+                <!-- <i class="ni ni-ui-04 d-lg-none"></i> -->
+                Awareness Campaigns
+                <!-- <span class="nav-link-inner--text"></span> -->
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -254,7 +255,7 @@
             <button class="controls-button" 
                     v-for="(slide, index) in slides"
                     v-bind:class="{ active: index === currentSlide }"
-                    v-on:click="updateSlide(index)">{{ slide.headlineFirstLine }} {{ slide.headlineSecondLine }}</button>
+                    v-on:click="updateSlide(index)">{{ slide.test }} {{ slide.headlineSecondLine }}</button>
         </div>
         <div class="pagination-container">
             <span class="pagination-item"
