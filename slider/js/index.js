@@ -6,35 +6,35 @@ var app = new Vue({
         isFirstLoad: true,
         slides: [
             {
-                headlineFirstLine: "Super",
-                headlineSecondLine: "Tax",
+                headlineFirstLine: "Providing Healthcare",
+                headlineSecondLine: "To Every Soul",
                 sublineFirstLine: "Arcane Studios",
                 sublineSecondLine: "cipher",
-                bgImg: "1b.jpg",
+                bgImg: "assets/img/slider/8a.jpg",
                 rectImg: "https://i.postimg.cc/vTW0XkvM/slide-rect0.jpg"
             },
             {
-                headlineFirstLine: "Tax",
-                headlineSecondLine: "Payee",
+                headlineFirstLine: "Preserving our",
+                headlineSecondLine: "Wildlife Reserves",
                 sublineFirstLine: "Arcane Studios",
                 sublineSecondLine: "cipher",
-                bgImg: "https://i.postimg.cc/Qx34VNXM/slide1.jpg",
+                bgImg: "assets/img/slider/7a.jpg",
                 rectImg: "https://i.postimg.cc/ryWZ8R2b/slide-rect1.jpg"
             },
             {
-                headlineFirstLine: "#PKMKB",
-                headlineSecondLine: "Tax",
+                headlineFirstLine: "Providing",
+                headlineSecondLine: "Mid-day meals",
                 sublineFirstLine: "Arcane Studios",
                 sublineSecondLine: "cipher",
-                bgImg: "https://i.postimg.cc/t4RBtrnQ/slide2.jpg",
+                bgImg: "assets/img/slider/6a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
             },
             {
-                headlineFirstLine: "#PKMKB",
-                headlineSecondLine: "Tax",
+                headlineFirstLine: "Electrifying",
+                headlineSecondLine: "our nation",
                 sublineFirstLine: "Arcane Studios",
                 sublineSecondLine: "cipher",
-                bgImg: "https://i.postimg.cc/t4RBtrnQ/slide2.jpg",
+                bgImg: "assets/img/slider/5a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
             }
         ]
