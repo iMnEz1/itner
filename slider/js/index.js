@@ -40,6 +40,15 @@ var app = new Vue({
                 bgImg: "assets/img/slider/6a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
                 test: "For a brighter tomorrow"
+            },
+            {
+                headlineFirstLine: "Providing",
+                headlineSecondLine: "Mid-day meals",
+                sublineFirstLine: "Know where your tax",
+                sublineSecondLine: "Goes",
+                bgImg: "assets/img/slider/6a.jpg",
+                rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg",
+                test: "For a brighter tomorrow"
             }
         ]
     },
