@@ -8,32 +8,32 @@ var app = new Vue({
             {
                 headlineFirstLine: "Providing Healthcare",
                 headlineSecondLine: "To Every Soul",
-                sublineFirstLine: "Arcane Studios",
-                sublineSecondLine: "cipher",
+                sublineFirstLine: "Know where your tax",
+                sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/8a.jpg",
                 rectImg: "https://i.postimg.cc/vTW0XkvM/slide-rect0.jpg"
             },
             {
                 headlineFirstLine: "Preserving our",
                 headlineSecondLine: "Wildlife Reserves",
-                sublineFirstLine: "Arcane Studios",
-                sublineSecondLine: "cipher",
+                sublineFirstLine: "Know where your tax",
+                sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/7a.jpg",
                 rectImg: "https://i.postimg.cc/ryWZ8R2b/slide-rect1.jpg"
             },
             {
                 headlineFirstLine: "Providing",
                 headlineSecondLine: "Mid-day meals",
-                sublineFirstLine: "Arcane Studios",
-                sublineSecondLine: "cipher",
+                sublineFirstLine: "Know where your tax",
+                sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/6a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
             },
             {
                 headlineFirstLine: "Electrifying",
                 headlineSecondLine: "our nation",
-                sublineFirstLine: "Arcane Studios",
-                sublineSecondLine: "cipher",
+                sublineFirstLine: "Know where your tax",
+                sublineSecondLine: "Goes",
                 bgImg: "assets/img/slider/5a.jpg",
                 rectImg: "https://i.postimg.cc/3JFLGMRF/slide-rect2.jpg"
             }
