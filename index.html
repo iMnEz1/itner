@@ -133,7 +133,7 @@
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-collection d-lg-none"></i>
                 <span class="nav-link-inner--text">Employee's Corner</span>
@@ -201,7 +201,17 @@
 
               </div>
 
+            </li> -->
+
+            <li class="nav-item d-none d-lg-block ml-lg-4">
+              <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
+                <span class="btn-inner--icon">
+                  <i class="fa fa-cloud-download mr-2"></i>
+                </span>
+                <span class="nav-link-inner--text new_font">Download</span>
+              </a>
             </li>
+
 
             
           </ul>
@@ -232,13 +242,12 @@
   
   </header>
 
-
-
-
+<!-- <button id="btnClick">Click me!</button> -->
 
   <!-- Slider Body -->
 
-  <div id="app" class="wrapper" v-cloak v-bind:class="{'is-previous': isPreviousSlide, 'first-load': isFirstLoad}">
+  <div id="1">
+    <div id="app" class="wrapper" v-cloak v-bind:class="{'is-previous': isPreviousSlide, 'first-load': isFirstLoad}">
             <div class="slide-wrapper" 
                  v-for="(slide, index) in slides" 
                  v-bind:class="{ active: index === currentSlide }"
@@ -269,9 +278,47 @@
                   v-bind:class="{ active: index === currentSlide }"
                   v-on:click="updateSlide(index)"></span>
         </div>
-    </div>
+  </div>
+  </div>
+
+  <div id="2" style="display: none;">
+    <div id="app2" class="wrapper" v-cloak v-bind:class="{'is-previous': isPreviousSlide, 'first-load': isFirstLoad}">
+            <div class="slide-wrapper" 
+                 v-for="(slide, index) in slides" 
+                 v-bind:class="{ active: index === currentSlide }"
+                 v-bind:style="{ 'z-index': (slides.length - index), 'background-image': 'url(' + slide.bgImg + ')' }">
+                <div class="slide-inner">
+                    <div class="slide-bg-text">
+                        <p>{{ slide.headlineFirstLine }}</p>
+                        <p>{{ slide.headlineSecondLine }}</p>
+                    </div>
+                    <!-- <div class="slide-rect-filter">
+                        <div class="slide-rect" v-bind:style="{'border-image-source': 'url(' + slide.rectImg + ')'}"></div>
+                    </div> -->
+                    <div class="slide-content">
+                        <h1 class="slide-content-text" style="color: white"><p>{{ slide.headlineFirstLine }}</p><p>{{ slide.headlineSecondLine }}</p></h1>
+                        <!-- <a class="slide-content-cta" href="https://www.youtube.com/watch?v=cQFVeh6PCSQ">Play Video</a> -->
+                      </div>
+                    <h2 class="slide-side-text"><span>{{ slide.sublineFirstLine }} / </span><span>{{ slide.sublineSecondLine }}</span></h2></div>
+            </div>
+        <div class="controls-container">
+            <button class="controls-button" 
+                    v-for="(slide, index) in slides"
+                    v-bind:class="{ active: index === currentSlide }"
+                    v-on:click="updateSlide(index)">{{ slide.headlineFirstLine }} {{ slide.headlineSecondLine }}</button>
+        </div>
+        <div class="pagination-container">
+            <span class="pagination-item"
+                  v-for="(slide, index) in slides"
+                  v-bind:class="{ active: index === currentSlide }"
+                  v-on:click="updateSlide(index)"></span>
+        </div>
+  </div>
+  </div>
+  
 
     <!-- Whats New -->
+
 
     <div class="row bg-gradient-info">
       <div class="container">
@@ -292,7 +339,7 @@
                     <p class="description text-white mt-3 new_font">Waiting for Content, Content for Waiting</p>
                     <br>
                     <div>
-                      <span class="badge new_font badge-pill badge-yellow">view more</span>
+                      <span class="badge new_font badge-pill badge-yellow shadow floating">view more</span>
                     </div>
                   </div>
                 </div>
@@ -304,7 +351,7 @@
                     <p class="description text-white mt-3 new_font">Waiting for Content, Content for Waiting</p>
                     <br>
                     <div>
-                      <span class="badge new_font badge-pill badge-yellow">view more</span>
+                      <span class="badge new_font badge-pill badge-yellow shadow floating">view more</span>
                     </div>
                   </div>
                 </div>
@@ -316,7 +363,7 @@
                     <p class="description text-white mt-3 new_font">Waiting for Content, Content for Waiting</p>
                     <br>
                     <div>
-                      <span class="badge new_font badge-pill badge-yellow">view more</span>
+                      <span class="badge new_font badge-pill badge-yellow shadow floating">view more</span>
                     </div>
                   </div>
                 </div>
@@ -328,7 +375,7 @@
                     <p class="description text-white mt-3 new_font">Waiting for Content, Content for Waiting</p>
                     <br>
                     <div>
-                      <span class="badge new_font badge-pill badge-yellow">view more</span>
+                      <span class="badge new_font badge-pill badge-yellow shadow floating">view more</span>
                     </div>
                   </div>
                 </div>
@@ -415,12 +462,6 @@
           <a href="blog/index.html" style="color: white" >Awareness Campaign</a>
         </h2>
       <div class="shape shape-style-1 bg-gradient-banner3">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
       </div>
       <div class="container">
         <div class="row row-grid align-items-center">
@@ -435,7 +476,8 @@
                   <polygon points="0,52 583,95 0,95" class="fill-primary" />
                   <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-primary" />
                 </svg>
-                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white" >Know the Benami Law</a></p>
+                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white; font-weight: bold" >Know the Benami Law</a></p>
+                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white;" >Know your Income Tax</a></p>
                  <br>
                 <p class="text-italic text-dark new_font"></p>
               </blockquote>
@@ -451,7 +493,8 @@
                   <polygon points="0,52 583,95 0,95" class="fill-primary" />
                   <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-primary" />
                 </svg>
-                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white" >Know your Income Tax</a></p>
+                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white; font-weight: bold;" >Know your Income Tax</a></p>
+                  <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white;" >Know your Income Tax</a></p>
                  <br>
                 <p class="text-italic text-dark new_font"></p>
               </blockquote>
@@ -467,7 +510,8 @@
                   <polygon points="0,52 583,95 0,95" class="fill-primary" />
                   <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-primary" />
                 </svg>
-                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white" >Know your taxable</a></p>
+                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white; font-weight: bold;" >Know your taxable</a></p>
+                 <p class="lead text-dark mt-2 new_font"><a href="blog/index.html" style="color: white;" >Know your Income Tax</a></p>
                  <br>
                 <p class="text-italic text-dark new_font"></p>
               </blockquote>
@@ -481,26 +525,26 @@
 
     <!-- Bar -->
 
-    <section class="section section section-shaped my-0 overflow-hidden">
+    <section class="section section section-shaped my-0 overflow-hidden bg-gradient-banner3">
 
-        <div class="row row-grid align-items-center">
-          <div class="col-sm-2 offset-1 col-6 mt-5 mt-sm-0">
+        <div class="row row-grid align-items-center mt-0" >
+          <div class="col-sm-2 offset-1 col-6 mt-0 mt-sm-0">
             <small class="d-block text-uppercase font-weight-bold mb-4"></small>
             <img src="assets/img/bar/government-web-directory.png" alt=" image" class="img-fluid rounded shadow-lg" style="width: 150px;">
           </div>
-          <div class="col-sm-2 col-6 mt-5 mt-sm-0">
+           <div class="col-sm-2 col-6 mt-0 mt-sm-0">
             <small class="d-block text-uppercase font-weight-bold mb-4"></small>
             <img src="assets/img/bar/income-tax.png" alt=" image" class="img-fluid rounded shadow-lg" style="width: 150px;">
           </div>
-          <div class="col-sm-2 col-6 mt-5 mt-sm-0">
+           <div class="col-sm-2 col-6 mt-0 mt-sm-0">
             <small class="d-block text-uppercase font-weight-bold mb-4"></small>
             <img src="assets/img/bar/india-gov.png" alt=" image" class="img-fluid rounded shadow-lg" style="width: 150px;">
           </div>
-          <div class="col-sm-2 col-6 mt-5 mt-sm-0">
+           <div class="col-sm-2 col-6 mt-0 mt-sm-0">
             <small class="d-block text-uppercase font-weight-bold mb-4"></small>
             <img src="assets/img/bar/ministry-of-finance.png" alt=" image" class="img-fluid rounded shadow-lg" style="width: 150px;">
           </div>
-          <div class="col-sm-2 col-6 mt-5 mt-sm-0">
+           <div class="col-sm-2 col-6 mt-0 mt-sm-0">
             <small class="d-block text-uppercase font-weight-bold mb-4"></small>
             <img src="assets/img/bar/mygov.png" alt=" image" class="img-fluid rounded shadow-lg" style="width: 150px;">
           </div>
@@ -517,7 +561,7 @@
           <br>
           <img src="assets/img/brand/it 6.png" class="img-fluid">
           <br><br>
-          <h5 class="text-white new_font mb-2">Waiting for content</h5>
+          <h5 class="text-white new_font mb-2">message from principal chief commissioner will add up here</h5>
         </div>
 
          <div class="col-lg-3">
@@ -551,25 +595,19 @@
          <div class="col-lg-3">
           <h3 class="text-white font-weight-bold new_font mb-2">Office Address</h3>
           <br>
-          <h5 class="text-white new_font mb-2">Lorem ipsum dolor sit amet consectetur adipisicing Iste quaerat officiis, sequi</h5>
+          <h5 class="text-white new_font mb-2">Jorpukhuri - Uzanbazar Rd,Fatick, Ch.Road, Latasil, Uzan Bazar, Guwahati, Assam 781001</h5>
         </div>
       </div>
-      <hr>
-      <div class="row align-items-center justify-content-md-between">
-        <div class="col-md-10">
+      <br>
+      <div class="col-md-10">
           <div class="copyright new_font">
-            <a href="https://www.creative-tim.com" class="new_font" style="color: #ffffff" target="_blank">
-              &copy; 2018
+            <a href="https://www.creative-tim.com" class="new_font" style="color: #ffffff" target="_blank">&copy; 2018
               <strong class="new_font" style="color: #ffffff; font-weight: bold">Department of Income Tax</strong> | North East Region © 2019 All Right Reserved
             </a>
           </div>
         </div>
       </div>
-      </div>
     </footer>
-
-
-    
 
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js'></script>

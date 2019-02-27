@@ -463,7 +463,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .bg-map{ background: url(../images/map.png) no-repeat center; background-size: cover; }
 
-.bg-1{ background: url(../../assets/img/slider/7a.jpg) no-repeat center; background-size: cover; }
+.bg-1{ background: url(../../assets/img/blog/bg.jpg) no-repeat center; background-size: cover; }
 .bg-2{ background: url(../../assets/img/blog/1.jpg) no-repeat center; background-size: cover; }
 .bg-3{ background: url(../../assets/img/blog/2.jpg) no-repeat center; background-size: cover; }
 .bg-4{ background: url(../../assets/img/blog/3.jpg) no-repeat center; background-size: cover; }

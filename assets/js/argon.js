@@ -21,8 +21,8 @@
 "use strict";
 $(document).ready(function() {
 
-    var canvas = document.getElementById("canvas"),
-    ctx = canvas.getContext('2d');
+var canvas = document.getElementById("canvas"),
+ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -124,6 +124,18 @@ function tick() {
 }
 
 tick();
+
+// End Particles 
+
+// $('#btnClick').on('click',function(){
+//     console.log("hey");
+//     // if($('#1').css('display')!='none'){
+//     // $('#2').show().siblings('div').hide();
+//     // }else if($('#2').css('display')!='none'){
+//     //     $('#1').show().siblings('div').hide();
+//     // }
+// });
+
 
     // Collapse navigation
     $('.navbar-main .collapse').on('hide.bs.collapse', function () {
