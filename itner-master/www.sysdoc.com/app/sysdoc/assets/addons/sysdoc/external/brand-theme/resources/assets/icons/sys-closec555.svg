@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Sysdoc-Website-HFD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="Sysdoc_Home_PromoBar" transform="translate(-1882.000000, -17.000000)" fill="#DADADA">
+            <g id="Group" transform="translate(1890.142136, 24.384776) rotate(45.000000) translate(-1890.142136, -24.384776) translate(1880.142136, 14.384776)">
+                <rect id="Rectangle" x="9.0601343" y="0.598595841" width="2.30769231" height="19.2307692"></rect>
+                <polygon id="Rectangle" transform="translate(10.213980, 10.213980) rotate(-270.000000) translate(-10.213980, -10.213980) " points="9.0601343 0.598595841 11.3678266 0.598595841 11.3678266 19.8293651 9.0601343 19.8293651"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
